@@ -1,0 +1,200 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    margin: 0px;
+    background-color: lightyellow;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+div {
+    border: 0px dashed;
+    color: rgb(134, 216, 134);
+    display: flex;
+    
+}
+
+.header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgba(127, 255, 212, 0.8);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+button{
+    height: 7vmin;
+    width: 10vw;
+    background-color: rgb(95, 252, 95);
+    border-radius: 5px;
+    font-size: 1.8vw;
+    transition: .3s;
+    
+}
+ 
+button:hover{
+    background-color: rgb(255, 255, 138);
+    animation: shake 2s linear infinite;
+    box-shadow: 0px 0px 30px rgb(255, 255, 138);
+}  
+    
+
+
+.bob {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.bob h1 {
+    font-size: 45px;
+    
+}
+
+.pTextBox {
+    width: 50%;
+}
+
+
+.kermit {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.kermit h1 {
+    font-size: 45px;
+} 
+
+.pTextBox {
+    width: 50%;
+}
+
+
+.imgBox {
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+.imgBox img {
+    width: 30vw;
+}
+
+.pTextBox {
+    width: 50%;
+}
+
+p {
+    font-size: 2vmin;
+    text-align: center;
+}
+
+
+.Shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ShopRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shopIndv {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.shopIndv img {
+    height: 20vw;
+
+}
+
+
+.VIDEOS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.VideosRow {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.videosIndv{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.VideosRow img {
+    width: 30vw;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    10% {
+        transform: translateY(-5px) rotate(0deg);
+    }
+    20% {
+        transform: translateY(-5px) rotate(-20deg);
+    }
+    30% {
+        transform: translateY(-5px) rotate(20deg);
+    }
+    40% {
+        transform: translateY(-5px) rotate(-10deg);
+    }
+    50% {
+        transform: translateY(-5px) rotate(10deg);
+    }
+    60% {
+        transform: translateY(-5px) rotate(0deg);
+    }
+    70% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+
+
+
+#me  {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
